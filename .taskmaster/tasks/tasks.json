@@ -1,0 +1,340 @@
+{
+  "master": {
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Project Foundation Setup",
+        "description": "Set up Next.js 15 project with TypeScript, Tailwind CSS, and essential dependencies",
+        "status": "done",
+        "priority": "high",
+        "details": "Configure Next.js 15 with App Router, TypeScript for type safety, Tailwind CSS for styling, and install essential dependencies like Framer Motion, React Hook Form, Zod, and Lucide React icons.",
+        "testStrategy": "Verify development server starts without errors, TypeScript compilation works, and Tailwind CSS is properly configured",
+        "dependencies": [],
+        "subtasks": []
+      },
+      {
+        "id": 2,
+        "title": "Design System Implementation",
+        "description": "Implement the Peace Hub design system with colors, typography, and component classes",
+        "status": "done",
+        "priority": "high",
+        "details": "Create CSS custom properties for the color palette (Blue #4A7FFF, Yellow #FFD748, Orange #FF5733, Beige #FFF8E7), implement typography scale (H1: 120px to Small: 14px), and define component classes for buttons, cards, navigation, and forms.",
+        "testStrategy": "Verify all colors render correctly, typography scales properly, and component classes work across different screen sizes",
+        "dependencies": [
+          1
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 3,
+        "title": "Layout Component Structure",
+        "description": "Create the main layout component with navigation and responsive design",
+        "status": "done",
+        "priority": "high",
+        "details": "Build the main Layout component that includes navigation, footer, and responsive design. Implement smooth scroll navigation and ensure mobile-first approach with proper breakpoints.",
+        "testStrategy": "Test navigation on mobile and desktop, verify smooth scrolling works, and check responsive behavior across different screen sizes",
+        "dependencies": [
+          2
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 4,
+        "title": "Home Page Hero Section",
+        "description": "Create the impactful hero section with headline, supporting text, and call-to-action buttons",
+        "status": "done",
+        "priority": "high",
+        "details": "Design and implement the hero section with large headline (120px), supporting text, and primary/secondary call-to-action buttons. Include smooth animations and ensure it's the first visible, impactful section.",
+        "testStrategy": "Verify hero section loads quickly, animations are smooth, and call-to-action buttons are functional and accessible",
+        "dependencies": [
+          3
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 5,
+        "title": "Vision and Approach Sections",
+        "description": "Implement the vision and approach sections that articulate Peace Hub's mission",
+        "status": "pending",
+        "priority": "medium",
+        "details": "Create sections that clearly communicate Peace Hub's mission, values, and how they cultivate peace through structured collaboration. Include engaging content and visual elements.",
+        "testStrategy": "Review content for clarity and impact, test readability across devices, and verify visual hierarchy is clear",
+        "dependencies": [
+          4
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 6,
+        "title": "Programs and Testimonials Sections",
+        "description": "Build sections showcasing current programs and community testimonials",
+        "status": "pending",
+        "priority": "medium",
+        "details": "Create programs section with overview of initiatives and testimonials section with stories from community members and partners. Include engaging layouts and visual elements.",
+        "testStrategy": "Verify content is engaging, testimonials are properly formatted, and sections are visually appealing",
+        "dependencies": [
+          5
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 7,
+        "title": "About Us Page",
+        "description": "Create the About Us page with founder's story, team grid, and organization timeline",
+        "status": "pending",
+        "priority": "medium",
+        "details": "Build About Us page including founder's personal narrative, team grid with photos and bios, organization timeline with milestones, and values/philosophy section.",
+        "testStrategy": "Test page navigation, verify team grid displays correctly, and ensure timeline is properly formatted",
+        "dependencies": [
+          6
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 8,
+        "title": "Contact Form Implementation",
+        "description": "Create contact form with validation and submission handling",
+        "status": "pending",
+        "priority": "medium",
+        "details": "Implement contact form with fields for name, email, subject, and message. Use React Hook Form with Zod validation for real-time feedback and error handling.",
+        "testStrategy": "Test form validation, verify submission works, and check error handling and user feedback",
+        "dependencies": [
+          7
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 9,
+        "title": "Google Maps Integration",
+        "description": "Integrate Google Maps API to show Peace Hub's location",
+        "status": "pending",
+        "priority": "medium",
+        "details": "Set up Google Maps API integration to display Peace Hub's location on the contact page. Include directions and proper API key management.",
+        "testStrategy": "Verify map loads correctly, location is accurate, and API key is properly secured",
+        "dependencies": [
+          8
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 10,
+        "title": "Legal Pages (Impressum & Datenschutz)",
+        "description": "Create GDPR-compliant legal pages for German requirements",
+        "status": "pending",
+        "priority": "medium",
+        "details": "Create Impressum (legal notice) and Datenschutz (privacy policy) pages that are GDPR compliant. Include proper legal content and ensure accessibility.",
+        "testStrategy": "Verify legal content is accurate, GDPR compliance is met, and pages are accessible",
+        "dependencies": [
+          9
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 11,
+        "title": "Reusable Component Library",
+        "description": "Build a comprehensive library of reusable UI components",
+        "status": "pending",
+        "priority": "medium",
+        "details": "Create reusable components for buttons, cards, navigation, forms, modals, and other UI elements. Ensure consistency with design system and accessibility standards.",
+        "testStrategy": "Test all components across different screen sizes, verify accessibility, and ensure consistent styling",
+        "dependencies": [
+          10
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 12,
+        "title": "Smooth Scroll Navigation",
+        "description": "Implement enhanced navigation with smooth scrolling and parallax effects",
+        "status": "pending",
+        "priority": "low",
+        "details": "Add smooth scroll navigation between sections and implement subtle parallax effects for depth and movement. Use Framer Motion for optimized animations.",
+        "testStrategy": "Test smooth scrolling performance, verify parallax effects work smoothly, and check for any performance issues",
+        "dependencies": [
+          11
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 13,
+        "title": "Hover Animations and Micro-interactions",
+        "description": "Add engaging hover animations and micro-interactions throughout the site",
+        "status": "pending",
+        "priority": "low",
+        "details": "Implement hover animations for buttons, cards, and interactive elements. Add micro-interactions that enhance user experience without being distracting.",
+        "testStrategy": "Test all hover animations, verify they're smooth and not jarring, and ensure they work on touch devices",
+        "dependencies": [
+          12
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 14,
+        "title": "Newsletter Subscription",
+        "description": "Implement email newsletter subscription functionality",
+        "status": "pending",
+        "priority": "low",
+        "details": "Create newsletter subscription form with email capture, consent management, and integration with email service. Include proper validation and user feedback.",
+        "testStrategy": "Test subscription form, verify email capture works, and check consent management compliance",
+        "dependencies": [
+          13
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 15,
+        "title": "Loading States and Transitions",
+        "description": "Add smooth loading states and page transitions",
+        "status": "pending",
+        "priority": "low",
+        "details": "Implement loading states for forms, page transitions, and smooth feedback for user interactions. Ensure transitions are smooth and not jarring.",
+        "testStrategy": "Test all loading states, verify transitions are smooth, and check user feedback is clear and helpful",
+        "dependencies": [
+          14
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 16,
+        "title": "Accessibility Improvements",
+        "description": "Ensure full WCAG 2.1 AA compliance throughout the application",
+        "status": "pending",
+        "priority": "high",
+        "details": "Implement comprehensive accessibility features including keyboard navigation, screen reader support, proper ARIA labels, semantic HTML, and sufficient color contrast ratios.",
+        "testStrategy": "Run accessibility audits, test with screen readers, verify keyboard navigation, and check color contrast compliance",
+        "dependencies": [
+          15
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 17,
+        "title": "Performance Optimization",
+        "description": "Optimize application for speed and efficiency",
+        "status": "pending",
+        "priority": "high",
+        "details": "Implement performance optimizations including code splitting, lazy loading, image optimization, and Core Web Vitals improvements. Target page load time under 3 seconds.",
+        "testStrategy": "Run performance audits, verify Core Web Vitals scores, and test loading times across different devices and connections",
+        "dependencies": [
+          16
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 18,
+        "title": "SEO Implementation",
+        "description": "Implement comprehensive search engine optimization",
+        "status": "pending",
+        "priority": "medium",
+        "details": "Add meta tags, structured data (schema markup), XML sitemap, and optimize for search engines. Target SEO score above 95.",
+        "testStrategy": "Run SEO audits, verify meta tags are correct, check structured data, and test sitemap generation",
+        "dependencies": [
+          17
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 19,
+        "title": "Analytics Setup",
+        "description": "Configure user behavior tracking with privacy compliance",
+        "status": "pending",
+        "priority": "low",
+        "details": "Set up analytics to track user behavior while maintaining privacy compliance. Include GDPR-compliant tracking and proper consent management.",
+        "testStrategy": "Verify analytics tracking works, check privacy compliance, and test consent management",
+        "dependencies": [
+          18
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 20,
+        "title": "Production Deployment Setup",
+        "description": "Configure production environment and deployment pipeline",
+        "status": "pending",
+        "priority": "high",
+        "details": "Set up production deployment on Vercel or similar platform, configure custom domain with SSL certificate, and establish deployment pipeline with proper environment variables.",
+        "testStrategy": "Test production deployment, verify SSL certificate, check custom domain configuration, and test all functionality in production environment",
+        "dependencies": [
+          19
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 21,
+        "title": "Cross-browser Testing",
+        "description": "Test application across different browsers and devices",
+        "status": "pending",
+        "priority": "medium",
+        "details": "Test the application across different browsers (Chrome, Firefox, Safari, Edge), devices (mobile, tablet, desktop), and screen sizes to ensure consistent functionality.",
+        "testStrategy": "Test on multiple browsers and devices, verify responsive design works correctly, and check for any browser-specific issues",
+        "dependencies": [
+          20
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 22,
+        "title": "Content Review and Optimization",
+        "description": "Review and optimize all content for clarity and impact",
+        "status": "pending",
+        "priority": "medium",
+        "details": "Review all written content for clarity, impact, and alignment with Peace Hub's mission. Optimize copy for better engagement and conversion.",
+        "testStrategy": "Review content with stakeholders, test readability, and verify messaging aligns with organizational goals",
+        "dependencies": [
+          21
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 23,
+        "title": "Security Audit and Hardening",
+        "description": "Conduct security audit and implement security best practices",
+        "status": "pending",
+        "priority": "high",
+        "details": "Conduct security audit, implement security headers, validate all inputs, secure API keys, and follow security best practices for web applications.",
+        "testStrategy": "Run security scans, verify input validation, check API key security, and test for common vulnerabilities",
+        "dependencies": [
+          22
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 24,
+        "title": "Documentation and Handover",
+        "description": "Create comprehensive documentation for maintenance and future development",
+        "status": "pending",
+        "priority": "medium",
+        "details": "Create technical documentation, user guides, and maintenance procedures. Include setup instructions, deployment guides, and troubleshooting information.",
+        "testStrategy": "Review documentation for completeness and accuracy, test setup instructions, and verify all procedures work as documented",
+        "dependencies": [
+          23
+        ],
+        "subtasks": []
+      },
+      {
+        "id": 25,
+        "title": "Final Testing and Quality Assurance",
+        "description": "Conduct comprehensive testing and quality assurance before launch",
+        "status": "pending",
+        "priority": "high",
+        "details": "Perform comprehensive testing including functional testing, performance testing, accessibility testing, and user acceptance testing. Fix any issues found and prepare for launch.",
+        "testStrategy": "Execute all test plans, verify all functionality works correctly, and get stakeholder approval for launch",
+        "dependencies": [
+          24
+        ],
+        "subtasks": []
+      }
+    ],
+    "metadata": {
+      "projectName": "Peace Hub Frontend",
+      "version": "1.0.0",
+      "lastUpdated": "2024-12-19T10:00:00Z",
+      "totalTasks": 25,
+      "completedTasks": 0,
+      "pendingTasks": 25,
+      "created": "2025-08-08T13:54:50.978Z",
+      "description": "Tasks for master context",
+      "updated": "2025-08-08T14:31:29.423Z"
+    }
+  }
+}

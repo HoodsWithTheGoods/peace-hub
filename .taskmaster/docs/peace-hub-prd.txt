@@ -1,0 +1,183 @@
+# Peace Hub Frontend Application - Product Requirements Document
+
+## Project Overview
+Develop a modern, single-page landing application for Peace Hub, a non-profit organization that cultivates grassroots peace through structured collaboration and community engagement. The application should embody the metaphor of a "Peace Garden" - where intentional design and care create harmony from diversity.
+
+## Technical Stack
+- **Framework**: React with Next.js for optimal performance and SEO
+- **Styling**: Tailwind CSS with custom design system
+- **Animations**: Framer Motion for smooth transitions and scroll effects
+- **Routing**: React Router for page navigation
+- **Icons**: React Icons or custom SVG components
+- **Forms**: React Hook Form with validation
+- **State Management**: React Context or Zustand for global state
+
+## Design System Implementation
+Implement the provided design system with:
+- Primary colors: Blue (#4A7FFF), Yellow (#FFD748), Orange (#FF5733), Beige (#FFF8E7)
+- Typography: Inter font family with specified scale
+- Layout: 12-column grid system with responsive breakpoints
+- Components: Reusable UI components following design system patterns
+- No gradients - solid colors only
+- Uppercase text for navigation, buttons, and headings
+
+## Pages & Components
+
+### 1. Home Page (Main Landing Page)
+**Sections:**
+- Hero Section: Full viewport height with background video/image
+- The Vision: Split screen with garden metaphor visualization
+- Our Approach: Three-column layout with icons
+- Impact Numbers: Animated counters with parallax background
+- Our Programs: Card grid with hover effects
+- Founder's Message: Full-width with image and quote overlay
+- Success Stories: Testimonial carousel
+- Get Involved: Three action cards
+- Newsletter: Email subscription section
+
+**Features:**
+- Smooth scroll navigation between sections
+- Fixed navigation bar with transparent-to-solid scroll effect
+- Parallax scrolling on hero and impact sections
+- Garden-growth animation for impact numbers
+- Hover effects that feel organic and smooth
+
+### 2. About Us Page
+**Content:**
+- Founder's story and journey
+- Team members grid with photos and bios
+- Advisory board section
+- Organization timeline and milestones
+
+**Features:**
+- Responsive grid layouts
+- Image galleries with hover effects
+- Timeline component with animations
+
+### 3. Contact Page
+**Components:**
+- Contact form with validation
+- Office location(s) with map integration
+- Email and phone information
+- Social media links
+- FAQ section with accordion
+
+**Features:**
+- Form validation and submission handling
+- Success modal after form submission
+- Interactive map component
+- FAQ accordion with smooth animations
+
+### 4. Impressum Page (Legal Notice)
+**Content:**
+- Organization legal information
+- Registration details
+- Responsible persons
+- Tax exemption status
+
+**Features:**
+- Clean, readable layout
+- Proper typography hierarchy
+- Print-friendly styling
+
+### 5. Datenschutz Page (Privacy Policy)
+**Content:**
+- Data protection information
+- Cookie policy
+- User rights
+- Data processing details
+
+**Features:**
+- GDPR-compliant content structure
+- Cookie consent banner
+- Clear information hierarchy
+
+## Shared Components
+
+### Navigation System
+- Sticky top navigation bar with transparent-to-solid scroll effect
+- Logo on the left with brand colors
+- Navigation items: Home, About Us, Contact
+- CTA button: "Join the Movement"
+- Mobile-responsive hamburger menu
+- Smooth scroll behavior for anchor links
+
+### Footer
+- Newsletter subscription form
+- Quick links to legal pages (Impressum, Datenschutz)
+- Social media icons with hover effects
+- Copyright information
+- Partner organization logos
+
+### Modals/Popups
+- Newsletter Subscription Modal: Email capture with success confirmation
+- Contact Success Modal: Confirmation after form submission
+- Cookie Consent Banner: GDPR-compliant cookie notice
+
+## Technical Requirements
+
+### Performance
+- Lazy loading for images and sections
+- Optimized animations (60fps)
+- Minified assets
+- CDN-ready structure
+- Image optimization for different screen sizes
+
+### Responsive Design
+- Mobile-first approach
+- Breakpoints: 375px, 768px, 1024px, 1440px
+- Touch-friendly navigation and interactions
+- Responsive typography scaling
+
+### Accessibility
+- WCAG 2.1 AA compliance
+- Keyboard navigation support
+- Alt text for all images
+- Proper heading hierarchy
+- Focus indicators
+- Screen reader compatibility
+
+### SEO Optimization
+- Meta tags for all pages
+- Structured data markup
+- Sitemap generation
+- Open Graph tags for social sharing
+- Semantic HTML structure
+
+### Internationalization Ready
+- Structure to support future multi-language implementation
+- RTL layout consideration for Arabic
+- Localized content management
+
+## Content Management
+- Mock API data structure for:
+  - Program information
+  - Team member profiles
+  - Testimonials
+  - Impact statistics
+- Content management system preparation for future admin features
+
+## User Experience Goals
+- Create emotional connection with visitors
+- Feel like entering a peaceful garden - calming, inspiring, and motivating
+- Every interaction should reinforce the message that peace is cultivated through intentional collaboration
+- Smooth, organic animations and transitions
+- High performance and fast loading times
+- Intuitive navigation and clear call-to-actions
+
+## Success Metrics
+- Page load times under 3 seconds
+- Mobile performance score above 90
+- Accessibility score of 100%
+- SEO score above 95
+- User engagement with newsletter signup and contact forms
+- Social media sharing and engagement
+
+## Future Considerations
+- Content management system for administrators
+- Multi-language support
+- Advanced analytics integration
+- Blog/news section
+- Event management system
+- Donation integration
+- Member portal for program participants 
