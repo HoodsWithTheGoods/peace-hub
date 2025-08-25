@@ -122,13 +122,10 @@ export default function DatenschutzPage() {
                     Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
                   </p>
                   <div className="space-y-2">
-                    <p>Peace Hub</p>
-                    <p>Max Mustermann</p>
-                    <p>Musterstraße 123</p>
-                    <p>45127 Essen</p>
+                    <p>Peace Hub Initiative</p>
+                    <p>Hassan Atie Harati</p>
                     <p>Deutschland</p>
-                    <p>Telefon: +49 (0) 201 123 4567</p>
-                    <p>E-Mail: info@peace-hub.de</p>
+                    <p>E-Mail: hassanx363@gmail.com</p>
                   </div>
                   <p>
                     Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit 
@@ -297,13 +294,10 @@ export default function DatenschutzPage() {
                   Bei Fragen zur Erhebung, Verarbeitung oder Nutzung Ihrer personenbezogenen Daten wenden Sie sich bitte an:
                 </p>
                 <div className="space-y-2">
-                  <p>Peace Hub</p>
-                  <p>Max Mustermann</p>
-                  <p>Musterstraße 123</p>
-                  <p>45127 Essen</p>
+                  <p>Peace Hub Initiative</p>
+                  <p>Hassan Atie Harati</p>
                   <p>Deutschland</p>
-                  <p>E-Mail: info@peace-hub.de</p>
-                  <p>Telefon: +49 (0) 201 123 4567</p>
+                  <p>E-Mail: hassanx363@gmail.com</p>
                 </div>
               </div>
             </div>

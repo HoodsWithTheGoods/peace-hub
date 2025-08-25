@@ -30,51 +30,38 @@ export default function ImpressumPage() {
               <div>
                 <h3 className="text-xl font-semibold text-text-primary mb-4">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</h3>
                 <div className="space-y-2">
-                  <p><strong>Peace Hub</strong></p>
-                  <p>Max Mustermann</p>
-                  <p>Musterstraße 123</p>
-                  <p>45127 Essen</p>
+                  <p><strong>Peace Hub Initiative</strong></p>
+                  <p>Hassan Atie Harati</p>
                   <p>Deutschland</p>
                 </div>
               </div>
 
-              <div>
-                <h3 className="text-xl font-semibold text-text-primary mb-4">Kontakt:</h3>
-                <div className="space-y-2">
-                  <p>Telefon: +49 (0) 201 123 4567</p>
-                  <p>E-Mail: info@peace-hub.de</p>
-                  <p>Website: www.peace-hub.de</p>
-                </div>
-              </div>
+                             <div>
+                 <h3 className="text-xl font-semibold text-text-primary mb-4">Kontakt:</h3>
+                 <div className="space-y-2">
+                   <p>E-Mail: hassanx363@gmail.com</p>
+                   <p>Website: www.peace-hub.de</p>
+                 </div>
+               </div>
 
               <div>
                 <h3 className="text-xl font-semibold text-text-primary mb-4">Rechtliche Angaben:</h3>
                 <div className="space-y-4">
                   <p>
-                    <strong>Rechtsform:</strong> Eingetragener Verein (e.V.)<br />
-                    <strong>Registergericht:</strong> Amtsgericht Essen<br />
-                    <strong>Registernummer:</strong> VR 12345
+                    <strong>Rechtsform:</strong> Private Initiative<br />
+                    <strong>Status:</strong> Nicht eingetragener Zusammenschluss
                   </p>
                   
                   <p>
-                    <strong>Vereinsvorsitzender:</strong> Max Mustermann<br />
-                    <strong>Stellvertretender Vorsitzender:</strong> Maria Musterfrau
+                    <strong>Initiator und Ansprechpartner:</strong> Hassan Atie Harati
                   </p>
                 </div>
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold text-text-primary mb-4">Umsatzsteuer-ID:</h3>
-                <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:</p>
-                <p>DE123456789</p>
-              </div>
-
-              <div>
                 <h3 className="text-xl font-semibold text-text-primary mb-4">Redaktionell verantwortlich:</h3>
                 <div className="space-y-2">
-                  <p>Max Mustermann</p>
-                  <p>Musterstraße 123</p>
-                  <p>45127 Essen</p>
+                  <p>Hassan Atie Harati</p>
                   <p>Deutschland</p>
                 </div>
               </div>
